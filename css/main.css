@@ -30,16 +30,16 @@ img {
   width: 100%;
 }
 
-h2 {
+section h2 {
   margin: auto 0;
 }
 
-p {
+section p {
   margin: auto 0;
 }
 
 .wrapper {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   margin: 1.4rem;
 }
@@ -73,6 +73,8 @@ p {
   img {
     width: 90%;
   }
+
+  .section-letter {}
 
 }
 
@@ -108,7 +110,6 @@ p {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 
 }
