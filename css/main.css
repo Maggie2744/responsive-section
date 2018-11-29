@@ -41,7 +41,7 @@ section p {
 .wrapper {
   display: inline-flex;
   flex-wrap: wrap;
-  margin: 1.4rem;
+  margin: 0;
 }
 
 .section-letter {
@@ -74,7 +74,9 @@ section p {
     width: 90%;
   }
 
-  .section-letter {}
+  .wrapper {
+    margin: 0;
+  }
 
 }
 
@@ -88,6 +90,29 @@ section p {
   h2,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .section-letter {
+    order: -1;
+    width: 20%;
+  }
+
+  .section-body {
+    order: 1;
+    display: block;
+    width: 60%;
+  }
+
+  .section-icon {
+    order: 4;
+    width: 20%;
   }
 
 }
