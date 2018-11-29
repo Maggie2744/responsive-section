@@ -65,9 +65,8 @@ p {
     line-height: 1.3;
   }
 
-  h2,
-  p {
-    margin: 0 0 1.3rem;
+  img {
+    width: 90%;
   }
 
 }
