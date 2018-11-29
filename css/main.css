@@ -18,6 +18,25 @@ html {
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e5c30a;
+  width: 100%;
+  display: flex;
+}
+
+.section-letter {}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.img-flex {}
+
 @media only screen and (min-width: 25em) {
 
   html {
