@@ -5,7 +5,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.3 'Noto Sans', sans-serif;
-  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -24,18 +23,40 @@ body {
 
 section {
   background-color: #e5c30a;
-  width: 100%;
-  display: flex;
 }
-
-.section-letter {}
 
 img {
   display: block;
   width: 100%;
 }
 
-.img-flex {}
+h2 {
+  margin: auto 0;
+}
+
+p {
+  margin: auto 0;
+}
+
+.wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 1.4rem;
+}
+
+.section-letter {
+  width: 50%;
+}
+
+.section-icon {
+  width: 50%;
+}
+
+.section-body {
+  order: 1000;
+  display: block;
+  width: 100%;
+}
 
 @media only screen and (min-width: 25em) {
 
