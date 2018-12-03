@@ -33,7 +33,7 @@ img {
 .img-flex {
   display: block;
   max-width: 45em;
-  width: auto;
+  width: 100%;
   margin: auto;
 }
 
