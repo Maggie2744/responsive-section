@@ -47,7 +47,8 @@ section p {
 .wrapper {
   display: inline-flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 45em;
 }
 
 .section-letter {
@@ -82,6 +83,10 @@ section p {
 
   .wrapper {
     margin: 0;
+  }
+
+  .section-letter {
+    max-width: 45em;
   }
 
 }
