@@ -42,10 +42,12 @@ section h2 {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 section p {
   margin: 1rem;
+  margin-top: 0;
 }
 
 .wrapper {
